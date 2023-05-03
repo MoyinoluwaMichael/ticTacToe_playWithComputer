@@ -1,0 +1,65 @@
+.mainContainer{
+    border: 2pt solid red;
+    background-color: black;
+    display: flex;
+    padding-top: 5%;
+    height: 89.3vh;
+    gap: 0%;
+    /* filter: blur(5px); */
+}
+
+.mainContainer h1{
+    /* border: 2pt solid white; */
+    color: white;
+    width: 25%;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 15%
+}
+
+.board{
+    border: 2pt solid red;
+    background-color: #e2cba3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 73vh;
+    width: 60%;
+}
+
+.board div{
+    border: 3pt solid red;
+    color: blue;
+    height: 1.5em;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.board div:hover{
+    border: 3.5pt solid rgb(236, 233, 233);
+}
+
+.buttons{
+    /* border: 2pt solid red; */
+    height: 5%;
+    display: flex;
+    width: 20%;
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+button{
+    border: 2pt solid red;
+    width: 40%;
+}
+
+button:hover{
+    border: 2pt solid white;
+    background-color: black;
+    color: white;
+}
